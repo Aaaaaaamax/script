@@ -259,11 +259,11 @@ end
 --  1) PACK_BASE_URL = ลิงก์ GitHub ที่เก็บไฟล์แพ็ค (ลงท้ายด้วย /) เช่น https://raw.githubusercontent.com/ชื่อผู้ใช้/ชื่อrepo/main/
 --  2) CREDIT_LINES = ข้อความเครดิตที่จะแสดงบนหน้าจอ
 -- ถ้ามีไฟล์แพ็คอยู่ใน workspace ของ executor อยู่แล้ว (ชื่อเดียวกัน) สคริปต์จะใช้ไฟล์ในเครื่องก่อน ไม่ต้องโหลดจากเน็ต
-local PACK_BASE_URL = "https://raw.githubusercontent.com/USERNAME/REPO/main/"
+local PACK_BASE_URL = "https://github.com/Aaaaaaamax/script/releases/tag/1.0.0"
 local CREDIT_LINES = {
 	"RoClothes — ผู้สร้างต้นฉบับ: Unknowing (discord.gg/HBzvWE6Rp3)",
 	"Mod: discord.gg/k2HbJMY6Fr",
-	"ตัวโหลดไฟล์ / ปรับปรุงเพิ่มเติม: ชื่อของคุณ",
+	"ตัวโหลดไฟล์ / ปรับปรุงเพิ่มเติม : Seppp",
 }
 local SPLASH_SECONDS = 3          -- รันรอบต่อไป: แสดงหน้าจอเครดิตกี่วินาทีก่อนสคริปต์เริ่มทำงาน
 local LOGO_B64 = ""       -- รูปโลโก้แบบ base64 (เว้นว่าง = ใช้วงแหวนแทนไปก่อน)
