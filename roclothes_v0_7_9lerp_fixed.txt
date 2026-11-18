@@ -271,7 +271,7 @@ local LOGO_B64 = ""       -- รูปโลโก้แบบ base64 (เว้
 local LOGO_ROUND = true   -- true = ตัดรูปเป็นวงกลม
 local LOGO_URL = PACK_BASE_URL .. "logo.png" -- ลิงก์รูปโลโก้ (อัปโหลดชื่อ logo.png ไว้ที่เดียวกับแพ็ค หรือแก้ลิงก์ตรงนี้) เว้นว่าง "" = ไม่โหลด
 local LOGO_VERSION = 2    -- เปลี่ยนรูปใหม่แล้วอยากให้โหลดใหม่ ให้เพิ่มเลขนี้
-local ASK_BEFORE_DOWNLOAD = false -- true = ถามก่อนโหลดครั้งแรก (มีปุ่ม โหลดเลย / ยกเลิก)
+local ASK_BEFORE_DOWNLOAD = true -- true = ถามก่อนโหลดครั้งแรก (มีปุ่ม โหลดเลย / ยกเลิก)
 local PACKS = {
 	{ "RClothesPackV3_01.pack", 4512803 },
 	{ "RClothesPackV3_02.pack", 4519285 },
